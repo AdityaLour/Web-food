@@ -8,18 +8,18 @@ a{
     text-decoration: none;
 }
 #main_header{
-    height: 80px;
+    height: 5rem;
     display: flex;
     justify-content: space-between;
     align-items: center;
     background-color: rgb(29, 26, 24);
-    padding: 0 20px;
+    padding: 0 5%;
 }
 
 #logo{
     text-transform: uppercase;
     font-weight: bolder;
-    font-size: 24px;
+    font-size: 1.5rem;
     color: rgb(238, 164, 80);
 }
 
@@ -31,11 +31,12 @@ a{
 }
 
 #main_header li{
-    margin: 16px;
+    margin: 0 1rem;
 }
 
 nav a{
     color: rgb(238, 164, 80);
+    font-size: 1.25rem;
 }
 
 nav a:hover{
@@ -44,21 +45,21 @@ nav a:hover{
 
 h1{
     text-align: center;
-    font-size: 40px;
+    font-size: 3rem;
     font-weight: bold;
     color: rgb(238, 164, 80);
 }
 
 #latest-product{
     width: 80%;
-    margin: 50px auto;
+    margin: 2rem auto;
 }
 #latest-product ul{
     list-style: none;
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    gap: 16px;
+    gap: 1rem;
     margin: 0;
 }
 
@@ -78,7 +79,7 @@ h1{
 }
 
 .food-items-content{
-    padding: 16px;
+    padding: 1rem;
     
 }
 
@@ -86,8 +87,8 @@ h1{
 .button{
     color: white;
     background-color: rgb(228, 157, 44);
-    font-size: 20px;
-    padding: 8px 24px;
+    font-size: 1.5rem;
+    padding: 0.5rem 1.5rem;
     border-radius: 4px;
     margin-bottom: 4px;
 }
