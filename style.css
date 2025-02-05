@@ -43,6 +43,20 @@ nav a:hover{
     color: rgb(232, 156, 14);
 }
 
+.menu-btn{
+    width: 3rem;
+    height: 3rem;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.menu-btn span{
+    background-color: white;
+    height: 3px;
+    width: 100%;
+}
+
 h1{
     text-align: center;
     font-size: 3rem;
